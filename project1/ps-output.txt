@@ -1,0 +1,192 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 12:22 ?        00:00:05 /sbin/init splash
+root           2       0  0 12:22 ?        00:00:00 [kthreadd]
+root           3       2  0 12:22 ?        00:00:00 [rcu_gp]
+root           4       2  0 12:22 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 12:22 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 12:22 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 12:22 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2  0 12:22 ?        00:00:00 [rcu_tasks_trace]
+root          12       2  0 12:22 ?        00:00:01 [ksoftirqd/0]
+root          13       2  0 12:22 ?        00:00:01 [rcu_sched]
+root          14       2  0 12:22 ?        00:00:00 [migration/0]
+root          15       2  0 12:22 ?        00:00:00 [idle_inject/0]
+root          16       2  0 12:22 ?        00:00:00 [cpuhp/0]
+root          17       2  0 12:22 ?        00:00:00 [kdevtmpfs]
+root          18       2  0 12:22 ?        00:00:00 [netns]
+root          19       2  0 12:22 ?        00:00:00 [inet_frag_wq]
+root          20       2  0 12:22 ?        00:00:00 [kauditd]
+root          21       2  0 12:22 ?        00:00:00 [khungtaskd]
+root          22       2  0 12:22 ?        00:00:00 [oom_reaper]
+root          23       2  0 12:22 ?        00:00:00 [writeback]
+root          24       2  0 12:22 ?        00:00:01 [kcompactd0]
+root          25       2  0 12:22 ?        00:00:00 [ksmd]
+root          26       2  0 12:22 ?        00:00:00 [khugepaged]
+root          72       2  0 12:22 ?        00:00:00 [kintegrityd]
+root          73       2  0 12:22 ?        00:00:00 [kblockd]
+root          74       2  0 12:22 ?        00:00:00 [blkcg_punt_bio]
+root          75       2  0 12:22 ?        00:00:00 [tpm_dev_wq]
+root          76       2  0 12:22 ?        00:00:00 [ata_sff]
+root          77       2  0 12:22 ?        00:00:00 [md]
+root          78       2  0 12:22 ?        00:00:00 [edac-poller]
+root          79       2  0 12:22 ?        00:00:00 [devfreq_wq]
+root          80       2  0 12:22 ?        00:00:00 [watchdogd]
+root          82       2  0 12:22 ?        00:00:02 [kworker/0:1H-kblockd]
+root          84       2  0 12:22 ?        00:00:00 [kswapd0]
+root          85       2  0 12:22 ?        00:00:00 [ecryptfs-kthrea]
+root          87       2  0 12:22 ?        00:00:00 [kthrotld]
+root          88       2  0 12:22 ?        00:00:00 [acpi_thermal_pm]
+root          89       2  0 12:22 ?        00:00:00 [scsi_eh_0]
+root          90       2  0 12:22 ?        00:00:00 [scsi_tmf_0]
+root          91       2  0 12:22 ?        00:00:00 [scsi_eh_1]
+root          92       2  0 12:22 ?        00:00:00 [scsi_tmf_1]
+root          94       2  0 12:22 ?        00:00:00 [vfio-irqfd-clea]
+root          95       2  0 12:22 ?        00:00:00 [ipv6_addrconf]
+root         105       2  0 12:22 ?        00:00:00 [kstrp]
+root         108       2  0 12:22 ?        00:00:00 [zswap-shrink]
+root         109       2  0 12:22 ?        00:00:00 [kworker/u3:0]
+root         114       2  0 12:22 ?        00:00:00 [charger_manager]
+root         158       2  0 12:22 ?        00:00:00 [scsi_eh_2]
+root         159       2  0 12:22 ?        00:00:00 [scsi_tmf_2]
+root         181       2  0 12:22 ?        00:00:01 [jbd2/sda5-8]
+root         182       2  0 12:22 ?        00:00:00 [ext4-rsv-conver]
+root         221       1  0 12:23 ?        00:00:00 /lib/systemd/systemd-journald
+root         244       2  0 12:23 ?        00:00:00 [irq/18-vmwgfx]
+root         245       2  0 12:23 ?        00:00:00 [ttm_swap]
+root         246       2  0 12:23 ?        00:00:00 [card0-crtc0]
+root         247       2  0 12:23 ?        00:00:00 [card0-crtc1]
+root         248       2  0 12:23 ?        00:00:00 [card0-crtc2]
+root         249       2  0 12:23 ?        00:00:00 [card0-crtc3]
+root         250       2  0 12:23 ?        00:00:00 [card0-crtc4]
+root         251       2  0 12:23 ?        00:00:00 [card0-crtc5]
+root         252       2  0 12:23 ?        00:00:00 [card0-crtc6]
+root         253       2  0 12:23 ?        00:00:00 [card0-crtc7]
+root         262       2  0 12:23 ?        00:00:00 [loop0]
+root         264       1  0 12:23 ?        00:00:00 /lib/systemd/systemd-udevd
+root         265       2  0 12:23 ?        00:00:00 [loop1]
+root         266       2  0 12:23 ?        00:00:00 [loop2]
+root         267       2  0 12:23 ?        00:00:00 [loop3]
+root         268       2  0 12:23 ?        00:00:00 [loop4]
+root         318       2  0 12:23 ?        00:00:00 [cryptd]
+systemd+     492       1  0 12:23 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     493       1  0 12:23 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         527       1  0 12:23 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         528       1  0 12:23 ?        00:00:00 /usr/sbin/acpid
+avahi        531       1  0 12:23 ?        00:00:00 avahi-daemon: running [ezri-VirtualBox.local]
+root         532       1  0 12:23 ?        00:00:00 /usr/sbin/cron -f
+message+     534       1  0 12:23 ?        00:00:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         535       1  0 12:23 ?        00:00:30 /usr/sbin/NetworkManager --no-daemon
+root         543       1  0 12:23 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         559       1  0 12:23 ?        00:00:02 /usr/lib/policykit-1/polkitd --no-debug
+syslog       561       1  0 12:23 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         563       1  0 12:23 ?        00:00:00 /usr/libexec/switcheroo-control
+root         564       1  0 12:23 ?        00:00:00 /lib/systemd/systemd-logind
+root         567       1  0 12:23 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         568       1  0 12:23 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        571     531  0 12:23 ?        00:00:00 avahi-daemon: chroot helper
+root         634       1  0 12:23 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         641       1  0 12:23 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         664       1  0 12:23 ?        00:00:00 /usr/sbin/gdm3
+whoopsie     692       1  0 12:23 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops     697       1  0 12:23 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     699       1  0 12:23 ?        00:00:00 /usr/sbin/kerneloops
+rtkit        780       1  0 12:23 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         964       1  0 12:23 ?        00:00:00 /usr/lib/upower/upowerd
+colord      1643       1  0 12:24 ?        00:00:00 /usr/libexec/colord
+root       16618       2  0 12:28 ?        00:00:00 [xfsalloc]
+root       16619       2  0 12:28 ?        00:00:00 [xfs_mru_cache]
+root       16622       2  0 12:28 ?        00:00:00 [jfsIO]
+root       16623       2  0 12:28 ?        00:00:00 [jfsCommit]
+root       16624       2  0 12:28 ?        00:00:00 [jfsSync]
+root       22657     664  0 13:10 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+ezri       22773       1  0 13:10 ?        00:00:04 /lib/systemd/systemd --user
+ezri       22774   22773  0 13:10 ?        00:00:00 (sd-pam)
+ezri       22779   22773  0 13:10 ?        00:00:09 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ezri       22782   22773  0 13:10 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ezri       22784   22773  0 13:10 ?        00:00:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ezri       22789   22773  0 13:10 ?        00:00:00 /usr/libexec/gvfsd
+ezri       22794   22773  0 13:10 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ezri       22796       1  0 13:10 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ezri       22801   22773  0 13:10 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ezri       22826   22773  0 13:10 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ezri       22830   22773  0 13:10 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ezri       22834   22773  0 13:10 ?        00:00:00 /usr/libexec/goa-daemon
+ezri       22844   22773  0 13:10 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+ezri       22847   22773  0 13:10 ?        00:00:00 /usr/libexec/goa-identity-service
+ezri       22850   22773  0 13:10 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ezri       22858   22657  0 13:10 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ezri       22869   22858  0 13:10 tty2     00:00:28 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+ezri       22880   22858  0 13:10 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ezri       22951   22880  0 13:10 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ezri       22996   22773  0 13:10 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+ezri       23001   22996  0 13:10 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ezri       23020   22773  0 13:10 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+ezri       23041   22773  0 13:10 ?        00:00:00 /usr/libexec/dconf-service
+ezri       23047   22773  0 13:10 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ezri       23064   22773  0 13:10 ?        00:02:07 /usr/bin/gnome-shell
+ezri       23111   23064  0 13:11 ?        00:00:00 ibus-daemon --panel disable --xim
+ezri       23122   23111  0 13:11 ?        00:00:00 /usr/libexec/ibus-dconf
+ezri       23123   23111  0 13:11 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+ezri       23125   22773  0 13:11 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+ezri       23128   22773  0 13:11 ?        00:00:00 /usr/libexec/ibus-portal
+ezri       23142   22773  0 13:11 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ezri       23148   22773  0 13:11 ?        00:00:00 /usr/libexec/xdg-permission-store
+ezri       23153   22773  0 13:11 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ezri       23160   22773  0 13:11 ?        00:00:00 /usr/libexec/evolution-source-registry
+ezri       23173   22773  0 13:11 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ezri       23186   22773  0 13:11 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ezri       23211   22773  0 13:11 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ezri       23217   22789  0 13:11 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+ezri       23226   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ezri       23228   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-color
+ezri       23230   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-datetime
+ezri       23231   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-housekeeping
+ezri       23238   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-keyboard
+ezri       23240   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-media-keys
+ezri       23241   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-power
+ezri       23242   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ezri       23243   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-rfkill
+ezri       23246   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ezri       23247   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-sharing
+ezri       23252   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-smartcard
+ezri       23256   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-sound
+ezri       23261   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-usb-protection
+ezri       23262   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-wacom
+ezri       23267   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-wwan
+ezri       23268   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-xsettings
+ezri       23275   23047  0 13:11 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+ezri       23276   23047  0 13:11 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ezri       23349   22773  0 13:11 ?        00:00:00 /usr/libexec/gsd-printer
+ezri       23396   23111  0 13:11 ?        00:00:00 /usr/libexec/ibus-engine-simple
+ezri       23430   22773  0 13:11 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ezri       23647   23047  0 13:12 ?        00:00:01 update-notifier
+root       26702       2  0 13:13 ?        00:00:00 [loop5]
+root       32624       1  0 13:14 ?        00:00:05 /usr/lib/snapd/snapd
+root       33783       2  0 13:14 ?        00:00:00 [loop6]
+root       34973       2  0 13:14 ?        00:00:00 [loop7]
+ezri       41257   22773  0 13:15 ?        00:00:12 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+ezri       41436   22773  0 13:19 ?        00:03:36 /usr/lib/firefox/firefox -new-window
+ezri       41507   41436  0 13:19 ?        00:00:05 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 231536 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 41436 true tab
+ezri       41524   41436  0 13:19 ?        00:00:04 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 85 -prefMapSize 231536 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 41436 true tab
+ezri       41610   41436  0 13:19 ?        00:00:38 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 8025 -prefMapSize 231536 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 41436 true tab
+ezri       41678   22789  0 13:20 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+ezri       41694   22789  0 13:20 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+ezri       41888   41436  0 13:24 ?        00:01:04 /usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 10411 -prefMapSize 231536 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 41436 true tab
+root       42098       1  0 13:35 ?        00:00:00 /usr/sbin/cupsd -l
+root       42102       1  0 13:35 ?        00:00:00 /usr/sbin/cups-browsed
+ezri       44112   23064  0 22:06 ?        00:00:05 gnome-control-center
+ezri       44175   41436  0 22:08 ?        00:00:19 /usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 14463 -prefMapSize 231536 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 41436 true tab
+ezri       44285   41436  0 22:13 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210903235534 -prefsLen 14463 -prefMapSize 231536 -appdir /usr/lib/firefox/browser 41436 true rdd
+ezri       44303   22773  0 22:13 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+ezri       44305   22773  0 22:13 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+ezri       44306   22773  0 22:13 ?        00:00:01 /usr/libexec/gnome-terminal-server
+ezri       44380   44306  0 22:14 pts/0    00:00:00 bash
+ezri       46045   41436  0 22:14 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 11 -isForBrowser -prefsLen 14463 -prefMapSize 231536 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 41436 true tab
+root       46240       2  0 22:22 ?        00:00:00 [kworker/0:2-cgroup_destroy]
+ezri       46279   41436  0 22:25 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 12 -isForBrowser -prefsLen 14463 -prefMapSize 231536 -jsInit 285716 -parentBuildID 20210903235534 -appdir /usr/lib/firefox/browser 41436 true tab
+root       46299       2  0 22:25 ?        00:00:00 [kworker/u2:0-events_power_efficient]
+root       46411       2  0 22:31 ?        00:00:00 [kworker/0:1-events]
+root       46421       2  0 22:33 ?        00:00:00 [kworker/u2:2-ext4-rsv-conversion]
+root       46456       1  0 22:38 ?        00:00:00 /usr/libexec/fwupd/fwupd
+root       46466       2  0 22:39 ?        00:00:00 [kworker/u2:1-events_unbound]
+ezri       46958   44380  0 22:43 pts/0    00:00:00 ps -ef
