@@ -1,6 +1,7 @@
 #!/bin/sh
+ 
+cd Other
 
-cd src
-javac   *.java
+javac *.java
 
-java Main
+java Main $8
