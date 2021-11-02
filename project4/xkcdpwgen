@@ -1,5 +1,4 @@
-
 #!/bin/bash
-cd src
-javac *.java
-java Main
+
+javac src/*.java
+java src/Main
