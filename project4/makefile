@@ -5,8 +5,8 @@ JC = javac
         $(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-        Main.java \
-        passwordGen.java
+        src/Main.java \
+        src/passwordGen.java
 
 default: classes
 

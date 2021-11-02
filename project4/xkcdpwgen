@@ -1,7 +1,5 @@
+
 #!/bin/sh
- 
-cd Other
-
+cd src
 javac *.java
-
-java Main $8
+java Main

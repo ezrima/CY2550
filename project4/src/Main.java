@@ -1,9 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.IntStream;
 
 public class Main {
@@ -29,7 +26,7 @@ public class Main {
         }
 
 
-        Scanner command = new Scanner(System.in);
+        Iterator<String> command = Arrays.asList(args).iterator();;
         while (command.hasNext()) {
             switch (command.next()) {
                 case "--help":
@@ -42,17 +39,18 @@ public class Main {
                         String num = command.next();
                         int input = Integer.parseInt(num);
                         w = input;
+                        break;
                     } catch (NumberFormatException e) {
                         System.out.println("invalid input. type  --help  or -h for help");
                         System.exit(1);
                     }
-                    break;
+
                 case "--caps":
                 case "-c":
                     try {
                         String num = command.next();
                         int input = Integer.parseInt(num);
-                        c = input;
+                        c = input; break;
                     } catch (NumberFormatException e) {
                         System.out.println("invalid input. type  --help  or -h for help");
                         System.exit(1);
@@ -63,7 +61,7 @@ public class Main {
                     try {
                         String num = command.next();
                         int input = Integer.parseInt(num);
-                        n = input;
+                        n = input; break;
                     } catch (NumberFormatException e) {
                         System.out.println("invalid input. type  --help  or -h for help");
                         System.exit(1);
@@ -75,7 +73,7 @@ public class Main {
                     try{
                         String num = command.next();
                         int input = Integer.parseInt(num);
-                        ca = input;
+                        ca = input; break;
                     }catch (NumberFormatException e){
                         System.out.println("invalid input. type  --help  or -h for help");
                         System.exit(1);
@@ -85,6 +83,7 @@ public class Main {
                     System.out.println("invalid input. type  --help  or -h for help");
                     System.exit(1);
             }
+
         }
         passwordGen ps = new passwordGen(w,c,n,ca,wordsList);
         System.out.println(ps.generate());
